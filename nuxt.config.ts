@@ -8,12 +8,5 @@ export default defineNuxtConfig({
       title: '济南馥芮美容',
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
-  },
-  vite: {
-    server: {
-      hmr: {
-        clientPort: 443, // 假设你的开发环境支持通过HTTPS进行HMR
-      },
-    },
-  },
+  }
 });
