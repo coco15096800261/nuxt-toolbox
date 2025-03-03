@@ -6,7 +6,7 @@
       <div class="button-container">
         <button class="wechat-button" @click="openWeChat">前往微信打开</button>
       </div>
-      <div class="fallback-text">无法打开时，使用默认浏览器打开。 复制链接</div>
+      <div class="fallback-text">无法打开时，使用默认浏览器打开。复制链接</div>
     </div>
   </template>
   
